@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>FakeFlix</title>
+    <link rel="icon" type="image/x-icon" href="F_icon.ico">
+</head>
+<body>
+    
+
+
+    <header class="header">
+
+        <div style="display: flex; padding-left: 5px;">
+            <img width="90" src="assets/images/logo.png" alt="Logo" style="padding-right: 1rem;">
+
+            <div>
+                <a class="nav-link" href="/">Inicio</a>
+                <a class="nav-link">Series</a>
+                <a class="nav-link">Peliculas</a>
+                <a class="nav-link">Popular</a>
+                <a class="nav-link">Mi Lista</a>
+            </div>
+        </div>
+
+        <div style="display: flex; gap: 10px;">
+            <button class="nav-button" style="background: transparent; border-color: transparent;">
+                <img width="25" src="assets/images/icons/search-inverted.png" alt="LogoSearch">
+            </button>
+    
+            <img class="avatar" width="40" height="40" src="assets/images/user.jpg" alt="user">
+
+            <button class="nav-button" style="background: transparent; border-color: transparent; padding-right: 1rem;">
+                <img width="13" src="assets/images/icons/dropdown-inverted.png" alt="LogoDrop">
+            </button>
+        </div>
+
+    </header>
+
+        
+
+
+
+    <div class="rec-container">
+
+        <div>
+            <h2 class="rec-title">Recomendacion <br>Especial</h2>
+
+            <div style="display: flex; gap: 20px; justify-content: center; padding-bottom: 1rem;">
+                <button class="rec-button-play">
+                    <a href="recomendation.html" class="button" target="_blank" style="color: #F3F3F3; display: inline-block; text-decoration: none; padding: 8px 16px">
+                        <img width="20" src="assets/images/icons/play-inverted.png" alt="LogoPlay" style="padding-right: 1rem;">
+                        Ver
+                    </a>
+                </button>
+                <button class="rec-button-info">
+                    <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU" class="button" target="_blank" style="color: #F3F3F3; display: inline-block; text-decoration: none; padding: 8px 16px">
+                        <img width="20" src="assets/images/icons/info-inverted.png" alt="LogoInfo" style="padding-right: 1rem;">
+                        Más Info
+                    </a>
+                </button>
+            </div>
+
+            <h2 class="rec-desc">Una Recomendación Sorpresa De Netflix! <br>Presiona Reproducir Para Ver Lo Que Hemos Preparado Para Ti.</h2>
+            
+        </div>
+    </div>
+    
+
+    
+
+    <div style="padding-top: 1rem; padding-bottom: 4rem;">
+
+        <h1 class="mini-title">Te Podría Interesar...</h1>
+
+        <section class="mini-container">
+            <div class="mini-cards">
+    
+    
+                <div class="mini">
+                    <a href="http://www.tailsgetstrolled.org/" target="_blank">
+                        <img src="assets/images/miniatures/TGT.jpg" alt="TGT">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/serie/the-boys-presents-diabolical" target="_blank">
+                        <img src="assets/images/miniatures/TBD.jpeg" alt="TBD">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/serie/arcane" target="_blank">
+                        <img src="assets/images/miniatures/Arcane.jpg" alt="Arcane">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/serie/chernobyl" target="_blank">
+                        <img src="assets/images/miniatures/CHNB.jpg" alt="CHNB">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://mondomedia.com/search?search=Happy+Tree+Friends" target="_blank">
+                        <img src="assets/images/miniatures/HTP.jpg" alt="HTP">
+                    </a>
+                </div>
+
+                <div class="mini">
+                    <a href="https://www.youtube.com/watch?v=-4F91yuirwQ" target="_blank">
+                        <img src="assets/images/miniatures/DBAF.jpg" alt="DBAF">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://www1.cuevana3.vc/serie/la-casa-de-los-dibujos" target="_blank">
+                        <img src="assets/images/miniatures/LCDLD.png" alt="LCDLD">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://www1.cuevana3.vc/serie/mr-pickles" target="_blank">
+                        <img src="assets/images/miniatures/MRP.jpg" alt="MRP">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/58278/south-park-the-streaming-wars" target="_blank">
+                        <img src="assets/images/miniatures/SPTSW.jpg" alt="SPTSW">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="yes.html" target="_blank">
+                        <img src="assets/images/miniatures/bait2.jpg" alt="bait2">
+                    </a>
+                </div>
+    
+            </div>
+        </section>
+    </div>
+
+    <div style="padding-bottom: 4rem;">
+
+        <h1 class="mini-title">Basado En Lo Que Viste Recientemente</h1>
+
+        <section class="mini-container">
+            <div class="mini-cards">
+    
+    
+                <div class="mini">
+                    <a href="https://jkanime.net/bna/" target="_blank">
+                        <img src="assets/images/miniatures/BNA.jpg" alt="BNA">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://tioanime.com/anime/jojos-bizarre-adventure-the-animation" target="_blank">
+                        <img src="assets/images/miniatures/JJBAPB.jpg" alt="JJBAPB">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="SenatorArmstong.html" target="_blank">
+                        <img src="assets/images/miniatures/SNAS.jpg" alt="SenatorArmstrong">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://www.youtube.com/playlist?list=PLaVkk8gg8voZquTgUmC0z5zuPU8YfObcf" target="_blank">
+                        <img src="assets/images/miniatures/needlem0use - by hextrucho.jpg" alt="NM">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://www.youtube.com/playlist?list=PLcvaNleS3lSi32Gwcf7iQ1w3IwwC8KiVh" target="_blank">
+                        <img src="assets/images/miniatures/MO.jpg" alt="MO">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://tioanime.com/anime/jojos-bizarre-adventure-stardust-crusaders" target="_blank">
+                        <img src="assets/images/miniatures/JJBASC.jpg" alt="JJBASC">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://www.youtube.com/playlist?list=PLIY9UevIoFEQ3JaVC1_F5b2MyA7ybOSeB" target="_blank">
+                        <img src="assets/images/miniatures/CAHS.jpg" alt="CAHS">
+                    </a>
+                </div>
+
+                <div class="mini">
+                    <a href="yes2.html" target="_blank">
+                        <img src="assets/images/miniatures/bait.png" alt="bait">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/serie/rick-y-morty" target="_blank">
+                        <img src="assets/images/miniatures/RYM.jpg" alt="RYM">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/8400/dragon-ball-super-broly-54wci" target="_blank">
+                        <img src="assets/images/miniatures/DBSB.jpg" alt="HTP">
+                    </a>
+                </div>
+    
+            </div>
+        </section>
+    </div>
+
+    <div style="padding-bottom: 4rem;">
+
+        <h1 class="mini-title">Popular En FakeFlix</h1>
+
+        <section class="mini-container">
+            <div class="mini-cards">
+    
+    
+                <div class="mini">
+                    <a href="http://www.tailsgetstrolled.org/" target="_blank">
+                        <img src="assets/images/miniatures/TGT.jpg" alt="TGT">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/serie/the-boys-presents-diabolical" target="_blank">
+                        <img src="assets/images/miniatures/TBD.jpeg" alt="TBD">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/serie/arcane" target="_blank">
+                        <img src="assets/images/miniatures/Arcane.jpg" alt="Arcane">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/serie/chernobyl" target="_blank">
+                        <img src="assets/images/miniatures/CHNB.jpg" alt="CHNB">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://mondomedia.com/search?search=Happy+Tree+Friends" target="_blank">
+                        <img src="assets/images/miniatures/HTP.jpg" alt="HTP">
+                    </a>
+                </div>
+
+                <div class="mini">
+                    <a href="https://www.youtube.com/watch?v=-4F91yuirwQ" target="_blank">
+                        <img src="assets/images/miniatures/DBAF.jpg" alt="DBAF">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://www1.cuevana3.vc/serie/la-casa-de-los-dibujos" target="_blank">
+                        <img src="assets/images/miniatures/LCDLD.png" alt="LCDLD">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://www1.cuevana3.vc/serie/mr-pickles" target="_blank">
+                        <img src="assets/images/miniatures/MRP.jpg" alt="MRP">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/58278/south-park-the-streaming-wars" target="_blank">
+                        <img src="assets/images/miniatures/SPTSW.jpg" alt="SPTSW">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="yes.html" target="_blank">
+                        <img src="assets/images/miniatures/bait2.jpg" alt="bait2">
+                    </a>
+                </div>
+    
+            </div>
+        </section>
+    </div>
+
+    <div style="padding-bottom: 4rem;">
+
+        <h1 class="mini-title">Lo Más Visto En Tu Área</h1>
+
+        <section class="mini-container">
+            <div class="mini-cards">
+    
+    
+                <div class="mini">
+                    <a href="https://jkanime.net/bna/" target="_blank">
+                        <img src="assets/images/miniatures/BNA.jpg" alt="BNA">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://tioanime.com/anime/jojos-bizarre-adventure-the-animation" target="_blank">
+                        <img src="assets/images/miniatures/JJBAPB.jpg" alt="JJBAPB">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="SenatorArmstong.html" target="_blank">
+                        <img src="assets/images/miniatures/SNAS.jpg" alt="SenatorArmstrong">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://www.youtube.com/playlist?list=PLaVkk8gg8voZquTgUmC0z5zuPU8YfObcf" target="_blank">
+                        <img src="assets/images/miniatures/needlem0use - by hextrucho.jpg" alt="NM">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://www.youtube.com/playlist?list=PLcvaNleS3lSi32Gwcf7iQ1w3IwwC8KiVh" target="_blank">
+                        <img src="assets/images/miniatures/MO.jpg" alt="MO">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://tioanime.com/anime/jojos-bizarre-adventure-stardust-crusaders" target="_blank">
+                        <img src="assets/images/miniatures/JJBASC.jpg" alt="JJBASC">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://www.youtube.com/playlist?list=PLIY9UevIoFEQ3JaVC1_F5b2MyA7ybOSeB" target="_blank">
+                        <img src="assets/images/miniatures/CAHS.jpg" alt="CAHS">
+                    </a>
+                </div>
+
+                <div class="mini">
+                    <a href="yes2.html" target="_blank">
+                        <img src="assets/images/miniatures/bait.png" alt="bait">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/serie/rick-y-morty" target="_blank">
+                        <img src="assets/images/miniatures/RYM.jpg" alt="RYM">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/8400/dragon-ball-super-broly-54wci" target="_blank">
+                        <img src="assets/images/miniatures/DBSB.jpg" alt="HTP">
+                    </a>
+                </div>
+    
+            </div>
+        </section>
+    </div>
+
+    <div style="padding-bottom: 4rem;">
+
+        <h1 class="mini-title">Más Recomendaciones</h1>
+
+        <section class="mini-container">
+            <div class="mini-cards">
+    
+    
+                <div class="mini">
+                    <a href="http://www.tailsgetstrolled.org/" target="_blank">
+                        <img src="assets/images/miniatures/TGT.jpg" alt="TGT">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/serie/the-boys-presents-diabolical" target="_blank">
+                        <img src="assets/images/miniatures/TBD.jpeg" alt="TBD">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/serie/arcane" target="_blank">
+                        <img src="assets/images/miniatures/Arcane.jpg" alt="Arcane">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/serie/chernobyl" target="_blank">
+                        <img src="assets/images/miniatures/CHNB.jpg" alt="CHNB">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://mondomedia.com/search?search=Happy+Tree+Friends" target="_blank">
+                        <img src="assets/images/miniatures/HTP.jpg" alt="HTP">
+                    </a>
+                </div>
+
+                <div class="mini">
+                    <a href="https://www.youtube.com/watch?v=-4F91yuirwQ" target="_blank">
+                        <img src="assets/images/miniatures/DBAF.jpg" alt="DBAF">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://www1.cuevana3.vc/serie/la-casa-de-los-dibujos" target="_blank">
+                        <img src="assets/images/miniatures/LCDLD.png" alt="LCDLD">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://www1.cuevana3.vc/serie/mr-pickles" target="_blank">
+                        <img src="assets/images/miniatures/MRP.jpg" alt="MRP">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="https://ww1.cuevana3.me/58278/south-park-the-streaming-wars" target="_blank">
+                        <img src="assets/images/miniatures/SPTSW.jpg" alt="SPTSW">
+                    </a>
+                </div>
+    
+                <div class="mini">
+                    <a href="yes.html" target="_blank">
+                        <img src="assets/images/miniatures/bait2.jpg" alt="bait2">
+                    </a>
+                </div>
+    
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="social-buttons">
+            <button class="social-button">
+                <img width="40px" src="assets/images/icons/facebook.png" alt="Facebook">
+            </button>
+            <button class="social-button">
+                <img width="40px" src="assets/images/icons/instagram.png" alt="Instagram">
+            </button>
+            <button class="social-button">
+                <img width="40px" src="assets/images/icons/twitter.png" alt="Twitter">
+            </button>
+            <button class="social-button">
+                <img width="40px" src="assets/images/icons/youtube.png" alt="Youtube">
+            </button>
+        </div>
+
+
+
+        <div class="social-container">
+            
+            <div>
+                <h3 class="help-link">Audio Y Subtitulos</h3>
+                <h3 class="help-link">Descripción De Audio</h3>
+                <h3 class="help-link">Centro De Atencion</h3>
+                <h3 class="help-link">Tarjetas De Regalo</h3>
+            </div>
+
+
+            <div>
+                <a href="https://github.com/DraXr27/html-fakeflix" target="_blank" style="text-decoration: none;"><h3 class="help-link" style="text-decoration: none;">Centro De Contenido</h3></a>
+                <h3 class="help-link">Relaciones De Inversión</h3>
+                <h3 class="help-link">Empleos</h3>
+                <h3 class="help-link">Teminos De Uso</h3>
+            </div>
+
+
+            <div>
+                <h3 class="help-link">Privacidad</h3>
+                <h3 class="help-link">Notas Legales</h3>
+                <h3 class="help-link">Información Corporativa</h3>
+                <h3 class="help-link">Contactanos</h3>
+            </div>
+        </div>
+
+        <div>
+            <h3 class="bottom-text">© 1997-2022 FakeFlix</h3>
+            <h3 class="bottom-text">DraXr © 2022</h3>
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+</html>
